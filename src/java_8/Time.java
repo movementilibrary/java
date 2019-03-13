@@ -1,7 +1,9 @@
 package java_8;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Time {
@@ -54,19 +56,16 @@ public class Time {
 
 
     public static void main(String[] args) {
-        List<Time> times = new Time().populaTime();
-        times.stream()
-                .filter(time -> time.getNome()
-                .equals("Corinthians"))
-                .map(Time::getIdade)
-                .forEach(s -> System.out.println(s));
-
+        retornaIdadeTime();
+        ordenaTimesPeloNomeAsc();
+        ordenaTimesPeloNomeDesc();
+        retornaSomenteVisitantes();
 
     }
 
 
     public List<Time> populaTime(){
-        Time t1 = new Time(1L, true, "Corinthians",100);
+        Time t1 = new Time(1L, false, "Corinthians",100);
         Time t2 = new Time(2L, true, "Palmeiras",90);
         Time t3 = new Time(3L, false, "Sao Paulo",120);
         Time t4 = new Time(4L, false, "Oeste",300);
@@ -90,6 +89,44 @@ public class Time {
         ((ArrayList) times).add(t10);
 
         return times;
+
+    }
+
+    public static void retornaIdadeTime(){
+        List<Time> times = new Time().populaTime();
+             System.out.println("---------Devolve Idade do Time-------------");
+        times.stream()
+                .filter(time -> time.getNome()
+                        .equals("Corinthians"))
+                .map(Time::getIdade)
+                .forEach(s -> System.out.println(s));
+    }
+
+    public static void ordenaTimesPeloNomeAsc(){
+        List<Time> times = new Time().populaTime();
+        System.out.println("------------Ordenando Asc---------------");
+        times.stream()
+                .sorted(Comparator.comparing(Time::getNome))
+                .map(Time::getNome)
+                .forEach(s -> System.out.println(s));
+    }
+
+    public static void ordenaTimesPeloNomeDesc(){
+        List<Time> times = new Time().populaTime();
+        System.out.println("------------Ordenando Desc---------------");
+        times.stream()
+                .sorted(Comparator.comparing(Time::getNome).reversed())
+                .map(Time::getNome)
+                .forEach(s -> System.out.println(s));
+    }
+
+    public static void retornaSomenteVisitantes(){
+        List<Time> times = new Time().populaTime();
+        System.out.println("------------Retorna Visitantes---------------");
+        times.stream()
+                .filter(time -> time.isMandante() == false)
+                .map(Time::getNome)
+                .forEach(i -> System.out.println(i));
 
     }
 }
