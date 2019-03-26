@@ -62,6 +62,8 @@ public class Time {
         retornaLimit();
         retornaAverage();
         filtraTimesEspecificos();
+        buscaTimeIniciaComLetraS();
+        contarTodosOsTimesMandantes();
 
         //Map
     }
@@ -75,7 +77,7 @@ public class Time {
                 .filter(time -> time.getNome()
                         .equals("Corinthians"))
                 .mapToInt(Time::getIdade)
-                .forEach(s -> System.out.println(s));
+                .forEach(System.out::println);
     }
 
     public static void ordenaTimesPeloNomeAsc(){
@@ -84,7 +86,7 @@ public class Time {
         times.stream()
                 .sorted(Comparator.comparing(Time::getNome))
                 .map(Time::getNome)
-                .forEach(s -> System.out.println(s));
+                .forEach(System.out::println);
     }
 
     public static void ordenaTimesPeloNomeDesc(){
@@ -93,7 +95,7 @@ public class Time {
         times.stream()
                 .sorted(Comparator.comparing(Time::getNome).reversed())
                 .map(Time::getNome)
-                .forEach(s -> System.out.println(s));
+                .forEach(System.out::println);
     }
 
     public static void retornaSomenteVisitantes(){
@@ -102,7 +104,7 @@ public class Time {
         times.stream()
                 .filter(time -> time.isMandante() == false)
                 .map(Time::getNome)
-                .forEach(i -> System.out.println(i));
+                .forEach(System.out::println);
     }
 
     public static void retornaDistinct(){
@@ -111,7 +113,7 @@ public class Time {
         times.stream()
                 .map(Time::getNome)
                 .distinct()
-                .forEach(s -> System.out.println(s));
+                .forEach(System.out::println);
     }
 
     public static void retornaLimit(){
@@ -120,7 +122,7 @@ public class Time {
         times.stream()
                 .map(Time::getNome)
                 .limit(2)
-                .forEach(s -> System.out.println(s));
+                .forEach(System.out::println);
     }
 
 
@@ -139,7 +141,27 @@ public class Time {
         System.out.println("------------Retorna Times Com C---------------");
         times.stream().filter(p -> p.getNome().startsWith("C"))
                 .map(Time::getNome)
-                .forEach(s -> System.out.println(s));
+                .forEach(System.out::println);
+
+    }
+
+    public static void buscaTimeIniciaComLetraS(){
+        List<Time> times = new Time().populaTime();
+        System.out.println("------------Retorna Times Com C---------------");
+        List<String> timesComInicioS = times.stream()
+                                      .filter(p -> p.getNome().startsWith("S"))
+                                      .map(Time::getNome)
+                                      .collect(Collectors.toList());
+        System.out.println(timesComInicioS);
+    }
+
+    public static void contarTodosOsTimesMandantes(){
+        List<Time> times = new Time().populaTime();
+        System.out.println("------------Conta Times Mandantes---------------");
+        long quantidadeTimesMandantes = times.stream()
+                                        .filter(p -> p.isMandante() == true)
+                                        .count();
+        System.out.println(quantidadeTimesMandantes);
     }
 
 
