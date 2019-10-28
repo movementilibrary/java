@@ -1,4 +1,4 @@
-package interfaces;
+package interfaces.classes;
 
 public class Produto implements Tributavel, Transportavel{
     private String nome;
@@ -7,22 +7,34 @@ public class Produto implements Tributavel, Transportavel{
     private double precoFinal;
     private double valorFrete;
 
+
     @Override
     public void calcularImposto() {
-        precoFinal = this.preco + (this.preco * IMPOSTO);
-
+       precoFinal = this.preco + (this.preco * IMPOSTO);
     }
 
     @Override
     public void calculaFrete() {
         this.valorFrete = this.preco / peso;
-    }
 
+    }
 
     public Produto(String nome, double peso, double preco) {
         this.nome = nome;
         this.peso = peso;
         this.preco = preco;
+
+    }
+
+    @Override
+    public String toString() {
+        return "Produto{" +
+                "nome='" + nome + '\'' +
+                ", peso=" + peso +
+                ", preco=" + preco +
+                ", precoFinal=" + precoFinal +
+                ", valorFrete=" + valorFrete +
+                '}';
     }
 
     public String getNome() {
@@ -63,16 +75,5 @@ public class Produto implements Tributavel, Transportavel{
 
     public void setValorFrete(double valorFrete) {
         this.valorFrete = valorFrete;
-    }
-
-    @Override
-    public String toString() {
-        return "Produto{" +
-                "nome='" + nome + '\'' +
-                ", peso=" + peso +
-                ", preco=" + preco +
-                ", precoFinal=" + precoFinal +
-                ", valorFrete=" + valorFrete +
-                '}';
     }
 }

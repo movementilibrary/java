@@ -1,0 +1,19 @@
+
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ï¬ù—
+V
+squid:S1066"9Replace this use of System.out or System.err by a logger.(æü•Ó8´­ô„-
+V
+squid:S106#"9Replace this use of System.out or System.err by a logger.(®ßÄ¸8óô«„-
+[
+squid:S106C"9Replace this use of System.out or System.err by a logger.(±…Ëıÿÿÿÿ8æ’”…-
+[
+squid:S1061"9Replace this use of System.out or System.err by a logger.(ªåüìüÿÿÿÿ8Ñëç„-
+V
+squid:S106+"9Replace this use of System.out or System.err by a logger.(À½¾²8ÿÇÇ„-
+Msquid:S1481@"/Remove this unused "formatador" local variable.(Ò³ê²8Û§Ï…-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(¶¢óÉ8öæ„-
+\squid:S1854@">Remove this useless assignment to local variable "formatador".(Ò³ê²8Û§Ï…-
+Nsquid:S2201;"+The return value of "getHour" must be used.(Õ›Áüÿÿÿÿ8œ»…-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(È˜ùÿÿÿÿ8‰‘‚„-
