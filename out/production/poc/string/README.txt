@@ -21,7 +21,41 @@ String
     Ex: String nome = "Michel"
         nome = nome.conact("Marciano")
 
-5 - Metodo charArt, usado para saber qual o caractere e determinada posição
+5 - Metodo charArt, usado para saber qual o caractere, o index é obrigatório pois ele
+    determinada posição que queremos visualizar
     String nome = "Jacqueline"
     nome.charArt(index)
 
+6 - Para comparar duas Strings o correto é usa o metodo equals
+    Ex: String nome = "Sophia"
+    nome.equals("Sophia")
+
+7 - Para comparar duas Strings ignorando case use o metodo equalsIgnoreCase()
+    Ex: String nome = "Sophia"
+    nome.equalsIgnoreCase("Sophia")
+
+8 - Para saber o tamnaho da String basta usar o metodo length
+    Ex: String nome = "Sophia"
+        nome.length();
+
+9 - Para substituir um caracter por outro basta utilizar o metodo replace
+    Ex: String nome = "Sophia"
+        nome.replace('e', '@')
+
+10 - Para subistituir todos as letras por minusculas basta utilizar o metodo toLowerCase
+    Ex: String nome = "Sophia"
+        nome.toLowerCase()
+
+11 - Para subistituir todos as letras por maiusculas basta utilizar o metodo toUpperCase
+    Ex: String nome = "Sophia"
+        nome.toUpperCase()
+
+12 - Para quebrar uma String e pegar somente uma parte dela basta utilizar o metodo substring
+    Ex: String nome = "Sophia"
+        nome.substring(0,2);
+        sout(So)
+
+13 - Para retirar todos os espacos de uma string basta usar o metodo trim
+    Ex: String nome = "   Sophia   "
+        nome.trim()
+        sout(Sophia)

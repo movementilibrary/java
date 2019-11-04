@@ -5,3 +5,7 @@ Q
 !src/java8_lambda_stream/Time.java,1/7/17972c7c65378eed877b2eae3ce5beb3087c43f7
 K
 src/serializacao/Aluno.java,c/5/c585239d0dd0bceb2b34067d3a2fe4f9034cb874
+E
+src/string/README.txt,6/f/6f6faeee654b2c8f2b26883271ac7300295df811
+M
+src/string/classe/Pessoa.java,0/c/0c6a3c1973a081e88f2f41bfb5953fb67222b68c
