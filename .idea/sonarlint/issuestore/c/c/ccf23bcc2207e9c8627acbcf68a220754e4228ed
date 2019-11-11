@@ -1,0 +1,6 @@
+
+Psquid:S1481"-Remove this unused "produto2" local variable.(„‹Ï ûÿÿÿÿ8âÊÐçä-
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Û¦ßçä-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(„™Áß8Ë‚Þçä-
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Û¦ßçä-

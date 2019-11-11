@@ -59,3 +59,26 @@ String
     Ex: String nome = "   Sophia   "
         nome.trim()
         sout(Sophia)
+
+14 - Para realizar uma comparacao de String usamos o metodo equals, no exemplo abaixo ele retorna
+true porque String fica armazenada no pool de strings, se voce tem duas strings iguais significa
+que elas estao sendo referenciadas para o mesmo objeto
+     Ex: String nome1 = "Michel";
+         String nome2 = "Michel"
+
+         nome1==nome2
+
+
+Quando usamos o seguinte exemplo estamos criando um objeto na memoria HEAP, com isso a resposta será false
+  Ex: String nome1 = "Michel";
+      String nome2 = new String("Michel");
+
+      nome1==nome2
+
+Para usar o significado do objeto e nao o endereco de memoria usamos o metodo equals, neste caso o retorno será
+true
+  Ex: String nome1 = "Michel";
+      String nome2 = new String("Michel");
+
+      nome1.equals(nome2);
+

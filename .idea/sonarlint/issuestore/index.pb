@@ -1,8 +1,6 @@
 
 I
 src/java8_data/Datas.java,d/2/d2b6081fb4d177e175e1192a5aac02c1d54ecf5f
-Q
-!src/java8_lambda_stream/Time.java,1/7/17972c7c65378eed877b2eae3ce5beb3087c43f7
 K
 src/serializacao/Aluno.java,c/5/c585239d0dd0bceb2b34067d3a2fe4f9034cb874
 E
@@ -11,9 +9,49 @@ M
 src/string/classe/Pessoa.java,0/c/0c6a3c1973a081e88f2f41bfb5953fb67222b68c
 I
 src/interfaces/README.txt,8/1/81730189c3d9349cca39c5fef3fa422dbd86da68
-T
-$src/colections/ColectionsEquals.java,e/f/ef48d93df3dede255e11767c059a97130bf4d4dc
-U
-%src/colections/classes/ListClass.java,9/5/95eca533aa28e972b579ebf19f3db364a9a6c883
+E
+src/equals/README.txt,c/7/c7eed9aa3ff1f4c8582cf769ed2f1dd25c14e20a
+G
+src/hashcode/README.txt,e/a/ea3c7ae30c0429b11ac0f6f709aa2deaf2b3fca0
+O
+src/equals/classes/Celular.java,f/f/ffc99c3db8b27a816ff5a73cccc11c332245bf2a
+R
+"src/equals/teste/CelularTeste.java,b/a/ba6e82cf49c41bdce132b2cb98221224477a23e1
+]
+-src/collection/arraylist/classes/Celular.java,d/3/d38429d620dabd2f7ec5b366f469100ea16e44f8
+_
+/src/collection/arraylist/test/SortListTest.java,7/6/7680a5f8c28612401b9708ed8df388f168e18a4b
+W
+'src/array/classe/ProdutoComparator.java,a/a/aa5de3db32de1eda7647db7adddd50d78c61c7f0
+g
+7src/collection/arraylist/classes/ProdutoComparator.java,4/8/48980a9db3213ca1eacdabb1c544a0ddd9ea7f80
+]
+-src/collection/arraylist/classes/Produto.java,4/9/497df4e3f12bdbfd6081d463f2c48de0b9b177ff
+D
+src/array/README.txt,1/9/19b1fce3ee5e11d21a5a9a6a6b9b1f94e3b5d297
+[
++src/collection/setlist/classes/Produto.java,c/c/cc3eeea35771409e0141c4fac9b2e21d426a87e3
 I
-src/colections/README.txt,2/a/2a7b9341bc935f19daa21ac0ed7b94c74edd0c12
+src/array/test/Array.java,9/1/91d4bfec37557b7bdabcdd5b87935d41b80e9164
+M
+src/array/classe/Produto.java,5/9/5911b68ecea1db12838dd906d50b4d0391a5f5e0
+\
+,src/collection/arraylist/test/ListaTest.java,a/2/a25a00efc280fcc9f372c37b66846f0884935b89
+^
+.src/collection/arraylist/test/CelularTest.java,e/c/ec7b8a2ad3f44c93f1e0d308cdef802c8db4da43
+b
+2src/collection/arraylist/test/ProdutoSortTest.java,5/8/58d49bd61541418236f4c3241629288f248c4da2
+S
+#src/collection/arraylist/README.txt,d/8/d8e3cfea649ab9aa6a7cc3963887d1f4dfdc2dd6
+W
+'src/collection/setlist/test/SetTet.java,c/c/ccf23bcc2207e9c8627acbcf68a220754e4228ed
+Q
+!src/collection/setlist/README.txt,4/6/46d0aa4c252f34f30ec3396df4bcc4409deeec9e
+J
+src/java8/classe/Time.java,8/7/872fc9ee8b11219483a43cd95161655c2a15bc96
+P
+ src/java8/test/UsuarioTeste.java,7/9/79a4c9dd8b53eff627b8b3fdc87a3e17044cea8e
+M
+src/java8/classe/Usuario.java,1/a/1ab062178b496ff41144cece692047f41a82aefa
+M
+src/java8/test/SomaArray.java,a/2/a2afb7307188215eb7354ad9d18b4340b5a169f1

@@ -1,0 +1,64 @@
+
+O
+squid:S106N"9Replace this use of System.out or System.err by a logger.(Õ¿ùˆ
+U
+squid:S106³"9Replace this use of System.out or System.err by a logger.(úÒĞëşÿÿÿÿ
+@squid:S1125µ"(Remove the literal "true" boolean value.(—ŠÔ³
+T
+squid:S106|"9Replace this use of System.out or System.err by a logger.(ƒ¡Ùçùÿÿÿÿ
+P
+squid:S106Œ"9Replace this use of System.out or System.err by a logger.(†³Ã¢
+Qsquid:S2209i"5Change this instance-reference to a static reference.(ú¬ÄŒùÿÿÿÿ
+Qsquid:S2209r"5Change this instance-reference to a static reference.(ú¬ÄŒùÿÿÿÿ
+P
+squid:S106®"9Replace this use of System.out or System.err by a logger.(Ë®¸œ
+T
+squid:S106n"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ
+O
+squid:S106a"9Replace this use of System.out or System.err by a logger.(•Ë¤¾
+T
+squid:S106s"9Replace this use of System.out or System.err by a logger.(µÃúºşÿÿÿÿ
+Rsquid:S2209•"5Change this instance-reference to a static reference.(ú¬ÄŒùÿÿÿÿ
+U
+squid:S106›"9Replace this use of System.out or System.err by a logger.(ßœ«çÿÿÿÿÿ
+isquid:S1192Æ"LDefine a constant instead of duplicating this literal "Boca Junior" 4 times.(”··ßúÿÿÿÿ
+Rsquid:S2209²"5Change this instance-reference to a static reference.(ú¬ÄŒùÿÿÿÿ
+O
+squid:S106j"9Replace this use of System.out or System.err by a logger.(–Œ¡ˆ
+P
+squid:S106 "9Replace this use of System.out or System.err by a logger.(¢Ü´Ü
+T
+squid:S106X"9Replace this use of System.out or System.err by a logger.(æÌØ²ıÿÿÿÿ
+P
+squid:S106–"9Replace this use of System.out or System.err by a logger.(Æ×ä»
+T
+squid:S106\"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ
+U
+squid:S106£"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ
+vsquid:S2293ê"YReplace the type specification in this constructor call with the diamond operator ("<>").(èàûåıÿÿÿÿ
+Qsquid:S2209`"5Change this instance-reference to a static reference.(ú¬ÄŒùÿÿÿÿ
+Rsquid:S2209‹"5Change this instance-reference to a static reference.(ú¬ÄŒùÿÿÿÿ
+Qsquid:S2209W"5Change this instance-reference to a static reference.(ú¬ÄŒùÿÿÿÿ
+Rsquid:S2209Ÿ"5Change this instance-reference to a static reference.(ú¬ÄŒùÿÿÿÿ
+Rsquid:S2209¨"5Change this instance-reference to a static reference.(ú¬ÄŒùÿÿÿÿ
+U
+squid:S106·"9Replace this use of System.out or System.err by a logger.(Ñ‘ëüÿÿÿÿ
+Qsquid:S2209M"5Change this instance-reference to a static reference.(ú¬ÄŒùÿÿÿÿ
+P
+squid:S106©"9Replace this use of System.out or System.err by a logger.(¢Ü´Ü
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¸ë¬ÿÿÿÿÿ
+T
+squid:S106w"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ
+T
+squid:S106S"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ
+T
+squid:S106e"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ
+bsquid:S1192Q"LDefine a constant instead of duplicating this literal "Corinthians" 3 times.(–æğU
+@squid:S1125l")Remove the literal "false" boolean value.(‚™ó–
+Qsquid:S2209{"5Change this instance-reference to a static reference.(ú¬ÄŒùÿÿÿÿ
+@squid:S1481æ"(Remove this unused "t11" local variable.(‰²Ï˜
+vsquid:S2293É"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŞıäÛûÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ıé¾Ôıÿÿÿÿ
