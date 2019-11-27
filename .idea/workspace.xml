@@ -2,49 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f55d9f2c-8ddc-4859-b57b-e5e67ea7f082" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/classe/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/classe/ProdutoComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/test/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/arraylist/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/arraylist/classes/Celular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/arraylist/classes/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/arraylist/classes/ProdutoComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/arraylist/test/CelularTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/arraylist/test/ProdutoSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/arraylist/test/SortListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/setlist/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/setlist/classes/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/setlist/test/SetTet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/equals/teste/CelularTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashcode/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/classe/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/test/SomaArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/test/UsuarioTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17972c7c65378eed877b2eae3ce5beb3087c43f7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a7b9341bc935f19daa21ac0ed7b94c74edd0c12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/95eca533aa28e972b579ebf19f3db364a9a6c883" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef48d93df3dede255e11767c059a97130bf4d4dc" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/test/ArraySimplesIdades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ioc/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ioc/classe/VendaDeProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/872fc9ee8b11219483a43cd95161655c2a15bc96" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/872fc9ee8b11219483a43cd95161655c2a15bc96" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2afb7307188215eb7354ad9d18b4340b5a169f1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2afb7307188215eb7354ad9d18b4340b5a169f1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poc/array/Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poc/colections/ColectionsEquals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poc/colections/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poc/colections/classes/Celular.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poc/colections/classes/Lista.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poc/java8_lambda_stream/Time.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poc/java8_lambda_stream/TimeJava8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/poc/string/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/poc/string/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/Array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/colections/ColectionsEquals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/colections/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/colections/classes/Celular.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/colections/classes/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/arraylist/test/ListaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/colections/test/CelularTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/equals/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/equals/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/equals/classes/Equal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/equals/classes/Celular.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java8_lambda_stream/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/classe/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java8_lambda_stream/TimeJava8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/arraylist/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/arraylist/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hashcode/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashcode/README.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +22,103 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/collection/arraylist/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1575">
+              <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ioc/classe/VendaDeProduto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java8/classe/Time.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="172" column="14" selection-start-line="172" selection-start-column="14" selection-end-line="172" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/array/classe/Produto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/array/test/Array.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/array/test/ArraySimplesIdades.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="2" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/array/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ioc/README.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java8/test/SomaArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,16 +128,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dele</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lambda_stream_java8/Time.java" />
-        <option value="$PROJECT_DIR$/src/java8_lambda_stream/Time.java" />
-        <option value="$PROJECT_DIR$/src/java8_data/Datas.java" />
-        <option value="$PROJECT_DIR$/src/java8_lambda_stream/TimeJava8.java" />
         <option value="$PROJECT_DIR$/src/colections/ColectionsEquals.java" />
         <option value="$PROJECT_DIR$/src/interfaces/Transportavel.java" />
         <option value="$PROJECT_DIR$/src/interfaces/ZREADME.txt" />
@@ -99,7 +164,6 @@
         <option value="$PROJECT_DIR$/src/equals/teste/CelularTeste.java" />
         <option value="$PROJECT_DIR$/src/equals/README.txt" />
         <option value="$PROJECT_DIR$/src/equals/classes/Celular.java" />
-        <option value="$PROJECT_DIR$/src/hashcode/README.txt" />
         <option value="$PROJECT_DIR$/src/arraylist/classes/Lista.java" />
         <option value="$PROJECT_DIR$/src/arraylist/test/Lista.java" />
         <option value="$PROJECT_DIR$/src/arraylist/test/ListaTest.java" />
@@ -121,11 +185,16 @@
         <option value="$PROJECT_DIR$/src/java8/classe/Usuario.java" />
         <option value="$PROJECT_DIR$/src/java8/test/UsuarioTeste.java" />
         <option value="$PROJECT_DIR$/src/java8/test/SomaArray.java" />
+        <option value="$PROJECT_DIR$/src/hashcode/README.txt" />
+        <option value="$PROJECT_DIR$/src/collection/arraylist/README.txt" />
+        <option value="$PROJECT_DIR$/src/README.txt" />
+        <option value="$PROJECT_DIR$/src/array/test/ArraySimplesIdades.java" />
+        <option value="$PROJECT_DIR$/src/array/README.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
+    <option name="x" value="1091" />
     <option name="y" value="21" />
     <option name="width" value="1299" />
     <option name="height" value="747" />
@@ -136,6 +205,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,6 +223,26 @@
               <item name="poc" type="b2602c69:ProjectViewProjectNode" />
               <item name="poc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="classe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="collection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -161,51 +252,14 @@
               <item name="collection" type="462c0819:PsiDirectoryNode" />
               <item name="arraylist" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="setlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="setlist" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="classe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573498696717" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574887176292" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -232,9 +286,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SomaArray">
+  <component name="RunManager" selected="Application.ArraySimplesIdades">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.test.Array" />
+      <module name="poc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraySimplesIdades" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.test.ArraySimplesIdades" />
       <module name="poc" />
       <extension name="coverage">
         <pattern>
@@ -285,26 +352,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.arraylist.test.SortListTest" />
-      <module name="poc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.arraylist.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraySimplesIdades" />
         <item itemvalue="Application.SomaArray" />
         <item itemvalue="Application.SetTet" />
         <item itemvalue="Application.Array" />
         <item itemvalue="Application.ProdutoSortTest" />
-        <item itemvalue="Application.SortListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -330,9 +384,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="21" width="1299" height="747" extended-state="6" />
+    <frame x="1091" y="21" width="1299" height="747" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3187946" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3513085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -344,12 +399,12 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31811264" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39878234" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.44444445" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30289194" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
@@ -387,20 +442,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aluno.ser">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Iterable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/Collection.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-442">
@@ -518,13 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/equals/README.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -548,13 +582,6 @@
             <element signature="e#1142#1143#0" expanded="true" />
             <element signature="e#1189#1190#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hashcode/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -623,26 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/README.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/test/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/classe/Produto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="69" column="5" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="69" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/collection/arraylist/test/ListaTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -670,13 +677,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collection/arraylist/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -730,10 +730,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ioc/VendaDeProduto.java" />
+    <entry file="file://$PROJECT_DIR$/src/hashcode/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collection/arraylist/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ioc/classe/VendaDeProduto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ioc/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java8/test/SomaArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="135">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -742,11 +781,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java8/classe/Time.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="25">
+          <caret line="172" column="14" selection-start-line="172" selection-start-column="14" selection-end-line="172" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/classe/Produto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/test/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/test/ArraySimplesIdades.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="2" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>

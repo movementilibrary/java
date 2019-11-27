@@ -1,6 +1,5 @@
 -------------------------------------Conceitos-------------------------------------------------
-Baixo acoplamento: é quando um código é independente de outras classes
-Auto coesão: quando o código é muito dependente de outro.
+
 Desempenho das collection.arraylist Big-O = bigocheatsheet.com
 Generics: Define o tipo daquela lista
 

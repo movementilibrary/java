@@ -55,3 +55,9 @@ M
 src/java8/classe/Usuario.java,1/a/1ab062178b496ff41144cece692047f41a82aefa
 M
 src/java8/test/SomaArray.java,a/2/a2afb7307188215eb7354ad9d18b4340b5a169f1
+>
+src/README.txt,2/2/22057da97759a9e1ffb6b143fbc60856e9906161
+B
+src/ioc/README.txt,0/8/08eea6adb2a53547a336f72bc28c8527a28ccf46
+R
+"src/ioc/classe/VendaDeProduto.java,c/1/c1ac4a1981ef4b09f3de7bb8372d6a5d9ea097e4
