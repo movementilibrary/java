@@ -61,3 +61,15 @@ B
 src/ioc/README.txt,0/8/08eea6adb2a53547a336f72bc28c8527a28ccf46
 R
 "src/ioc/classe/VendaDeProduto.java,c/1/c1ac4a1981ef4b09f3de7bb8372d6a5d9ea097e4
+S
+#src/array/test/ArraySimplesFor.java,1/c/1ce0b5d31fe9d112092ce5b2b76a6b0e2aff1e88
+W
+'src/array/test/ArraySimplesForEach.java,f/6/f6036512a08c84496c19925e98fcc80a43735952
+V
+&src/array/test/ArrayBydimensional.java,a/9/a91173b96ef31770781b4ef201a7470dfba67e66
+Y
+)src/array/test/ArrayMultidimensional.java,d/2/d2e2859a9c88d88d2e64a8504f0012a1f522e9ff
+T
+$src/metodos/classes/Calculadora.java,0/4/0458af03ccb59c436af01a46b27fec5696171c56
+F
+src/metodos/README.txt,1/2/12d69aba3f7cfc4032d42e3903732cbfc3e49beb

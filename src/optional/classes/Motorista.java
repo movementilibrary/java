@@ -1,4 +1,4 @@
-package optional;
+package optional.classes;
 
 public class Motorista {
 }

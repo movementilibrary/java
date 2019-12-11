@@ -1,0 +1,43 @@
+--------------------------------------Exception---------------------------------------------------
+
+Stack: Na Classe ExcepationTeste1 tivemos a seguinte situação
+       Metodo main chama metodo stackoverflow
+       metodo stackoverflow chama metod stachoverflow
+       metodo stackoverflow chama metod stachoverflow
+
+Tudo isso fica em memória, quando temos um stackoverflow significa que essa pilha estourou
+o espaco disponivel em memória
+
+-----------------------------------------------------------------------------------------------------
+Throwable : Todas as exceptions são filhas da Throwable, essa classe tem todas as exceçoes
+            que podem ser lançadas
+
+Error: É filha de Throwable, erro o sistema para, Ex: falta de memória no servidor, ele lança
+       out of memory error
+
+Exception: É filha de Throwable, excessoes podem ser tratadas
+
+
+Stack: Imaggine o seguite cenário
+       metodo main chama metodo print
+       metodo print chama metodo calcula
+       metodo calcula chma metodo calcula imposto
+
+Neste exemplo temos uma stack(pilha),
+
+      Agora Imagine um erro no metodo calcula imposto
+      Se não tiver um tratamento ele vai procurar no metodo calcula
+      Se não tiver um tratamento ele vai procurar no metodo print
+      Se não tiver um tratamento ele vai procurar no metodo main
+      E caso não tenha tratamento o programa para.
+
+
+Checked (erros gerais Ex: Conexao com Banco de Dados): O compilar espera que você crie um
+        tratamento antes de executar o programa, todas as excessoes filhas somente de Exception
+
+Unchecked (erros logica Ex: Uma posicao no array que nao existe): São excessoes que voce não
+        precisa criar nenhum tipo de tratamento, todas as excessoes filhas de RuntimeException
+
+
+printStackTrace: Log para desenvolvedores
+e.getMessage(): Pode ser usado para mostrar para os clientes

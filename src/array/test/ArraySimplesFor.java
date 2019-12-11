@@ -1,6 +1,6 @@
 package array.test;
 
-public class ArraySimplesIdades {
+public class ArraySimplesFor {
     public static void main(String[] args) {
         int[] idades = new int [3];
 

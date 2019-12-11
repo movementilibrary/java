@@ -1,4 +1,4 @@
-package exception;
+package exception.teste;
 
 public class Fluxo {
 
